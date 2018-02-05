@@ -1,0 +1,10 @@
+<context>
+  <input id="purchase" pattern="* how * buy *">
+    <output value="Hello $req_user_name! To buy our beautiful product just click a Buy button. Thank you!"/>
+    <context>
+      <input pattern="* where * (find|it) *">
+        <output value="The Buy button is placed at the top of main screen."/>
+      </input>
+    </context>
+  </input>
+</context>
