@@ -8,9 +8,3 @@
     </context>
   </input>
 </context>
-<output>
-  <![CDATA[
-  <p>Hello $req_user_name!</p>
-  <p>Thank you for your question.</p>
-  ]]>
-</output>
