@@ -10,7 +10,7 @@
 </context>
 <context>
   <input id="purchase" pattern="* update * m515 *">
-    <output value="Hello $req_user_name! To update your m515 please access store/my products. Thank you!"/>
+    <output value="Hello $req_user_name! To update your m515 please access store/My Products. Thank you!"/>
     <context>
       <input pattern="* where * (find|it) *">
         <output value="The Buy button is placed at the top of main screen."/>
