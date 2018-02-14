@@ -3,12 +3,15 @@
     <output>
   <![CDATA[
   <p>Hello $req_user_name!</p>
-  <p>Thank you for your contact.</p>
   <p></p>
-  <p><span>Thank you for contacting us.</span><br /><br /><span>The device model you are using uses Android Operating System, so it will not be compatible with NPlus.</span><br /><span>To check updates on your device, simply run NDrive, and then use the&nbsp;</span><span>Store &gt; My Products</span><span>&nbsp;option.&nbsp;</span><br /><br /><span>The User Guide instructions are not applied on that device model, since it's based on Android.</span></p>
+  <p>Thank you for your contact.</p>
+  <p>My name is NBot! I'm a fancy bot designed to help our users with their general queries, so I'll help you with any queries you might have.</p>
+  <p><br />The device model you are using uses Android Operating System, so it will not be compatible with NPlus. This is the only model from Binatone which does not use our NPlus updater, however, you can use its own Store option as long as you are using a Wi-Fi connection.</p>
+  <p><br />To check for updates on your device, simply run NDrive. When you are able to see the map, Press <strong>Menu</strong>, then&nbsp;go to&nbsp;<strong>Store</strong> &gt; <strong>My Products</strong>. If there's an update available, you will be notified accordingly.<br /><br />If I could not clarify you, just let me know, and I'll transfer your ticket to one of our Agents, who will be more than glad to assist you! ;)</p>
+  <p>&nbsp;</p>
+  <p>Best regards,</p>
   <div class="signature">
-  <p dir="auto">Best regards,</p>
-  <p dir="auto">Matt Smith<br /><span>Support Team</span></p>
+  <p dir="auto">NBot<br /><strong>Support Team</strong></p>
   </div>
   ]]>
     </output>
