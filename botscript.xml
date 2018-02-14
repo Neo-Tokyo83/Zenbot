@@ -1,6 +1,16 @@
 <context>
   <input pattern="* update * m515 *">
-    <output value="Hello $req_user_name! To update your m515 please access store/My Products. Thank you!"/>
+    <output>
+  <![CDATA[
+  <p>Hello $req_user_name!</p>
+  <p>Thank you for your contact.</p>
+  <p></p>
+  <p><span>Thank you for contacting us.</span><br /><br /><span>The device model you are using uses Android Operating System, so it will not be compatible with NPlus.</span><br /><span>To check updates on your device, simply run NDrive, and then use the&nbsp;</span><span>Store &gt; My Products</span><span>&nbsp;option.&nbsp;</span><br /><br /><span>The User Guide instructions are not applied on that device model, since it's based on Android.</span></p>
+  <div class="signature">
+  <p dir="auto">Best regards,</p>
+  <p dir="auto">Matt Smith<br /><span>Support Team</span></p>
+  </div>
+  ]]>
     <context>
       <input pattern="* where * (find|it) *">
         <output value="The Buy button is placed at the top of main screen."/>
