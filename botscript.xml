@@ -11,6 +11,7 @@
   <p dir="auto">Matt Smith<br /><span>Support Team</span></p>
   </div>
   ]]>
+    </output>
     <context>
       <input pattern="* where * (find|it) *">
         <output value="The Buy button is placed at the top of main screen."/>
