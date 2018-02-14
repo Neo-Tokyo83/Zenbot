@@ -7,7 +7,6 @@
       </input>
     </context>
   </input>
-</context>
 <context>
   <input pattern="* update * m515 *">
     <output value="Hello $req_user_name! To update your m515 please access store/My Products. Thank you!"/>
