@@ -9,7 +9,7 @@
   </input>
 </context>
 <context>
-  <input id="purchase" pattern="* update * m515 *">
+  <input id="ndriveupdates" pattern="* update * m515 *">
     <output value="Hello $req_user_name! To update your m515 please access store/My Products. Thank you!"/>
     <context>
       <input pattern="* where * (find|it) *">
