@@ -1,8 +1,9 @@
 <context>
   <pattern name="PNDModels"> <!--Nested Patterns for NBot. These are for Binatone products-->
-  <pattern value="(binatone|sat-nav|satnav|sat nav)"/>
-  <pattern value="(u435*|u505*|u605*|f435*)"/>
-  <pattern value="(xplore500|xplore600|motorolla|mnd50*|mnd60*)"/>
+  <pattern value="(binatone|sat-nav|satnav|sat nav)"/> <!--Binatone Models-->
+  <pattern value="(u435*|u505*|u605*|f435*)"/> <!--Binatone Models: WindowsCE-->
+  <pattern value="(xplore500|xplore600|motorolla|mnd50*|mnd60*)"/> <!--Binatone Models: WindowsCE-->
+  <pattern value="(m515)"/> <!--Binatone Models: Android-->
 </pattern>
   <input pattern="* (want|wanna|need|how) * $PNDModels *">
   <pattern value="(have|wish|require|help)">
