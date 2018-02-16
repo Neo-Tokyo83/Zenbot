@@ -5,6 +5,7 @@
   <pattern value="(xplore500|xplore600|motorolla|mnd50*|mnd60*)"/>
 </pattern>
   <input pattern="* (want|wanna|need|how) * $PNDModels *">
+  <input pattern="* (have|wish|require|help) * $PNDModels *">
     <output>
   <![CDATA[
   <p>Hello $req_user_name!</p>
