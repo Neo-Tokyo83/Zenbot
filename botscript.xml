@@ -4,10 +4,9 @@
   <pattern value="(u435*|u505*|u605*|f435*)"/> <!--Binatone Models: WindowsCE-->
   <pattern value="(xplore500|xplore600|motorolla|mnd50*|mnd60*)"/> <!--Binatone Models: WindowsCE-->
   <pattern value="(m515)"/> <!--Binatone Models: Android-->
-</pattern>
-  <input pattern="* (want|wanna|need|how) * $PNDModels *">
-  <pattern value="(have|wish|require|help)">
- </pattern> 
+  </pattern>
+  
+  <input pattern="* (want|wanna|need|how|have|wish|require|help) * $PNDModels *">
     <output>
   <![CDATA[
   <p>Hello $req_user_name!</p>
