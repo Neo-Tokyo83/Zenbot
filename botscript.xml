@@ -28,7 +28,7 @@
       </input>
     </context>
   </input>
-</context>
+
 <context>
   <pattern name="PNDModels"> <!--Nested Patterns for NBot. These are for Binatone products-->
   <pattern value="(binatone|sat-nav|satnav|sat nav)"/> <!--Binatone Models-->
