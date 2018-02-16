@@ -1,5 +1,10 @@
 <context>
-  <input pattern="* update * m515 *">
+  <pattern name="PNDModels"> <!--Nested Patterns for NBot. These are for Binatone products-->
+  <pattern value="(binatone|sat-nav|satnav|sat nav)"/>
+  <pattern value="(u435*|u505*|u605*|f435*)"/>
+  <pattern value="(xplore500|xplore600|motorolla|mnd50*|mnd60*)"/>
+</pattern>
+  <input pattern="* (want|wanna|need|how) * $PNDModels *">
     <output>
   <![CDATA[
   <p>Hello $req_user_name!</p>
