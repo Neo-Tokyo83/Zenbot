@@ -6,6 +6,7 @@
 </pattern>
   <input pattern="* (want|wanna|need|how) * $PNDModels *">
   <pattern value="(have|wish|require|help)">
+ </pattern> 
     <output>
   <![CDATA[
   <p>Hello $req_user_name!</p>
