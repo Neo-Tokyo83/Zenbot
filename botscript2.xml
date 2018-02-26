@@ -1,5 +1,5 @@
 <context>
-  <pattern name="PNDModels"> <!--Nested Patterns for NBot. These are for Binatone products-->
+  <pattern name="PNDModelsAndroid"> <!--Nested Patterns for NBot. These are for Binatone products-->
   <pattern value="(m515)"/> <!--Binatone Models: Android-->
   </pattern>
   
