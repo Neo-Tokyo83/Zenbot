@@ -41,4 +41,4 @@
       <input pattern="* where * (find|it) *">
         <output value="The Buy button is placed at the top of main screen."/>
       </input>
-    </context>
+</context>
