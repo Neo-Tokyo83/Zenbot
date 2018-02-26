@@ -43,10 +43,11 @@
       </input>
     </context>
   </input>
-
+  
+<context> 
   <pattern value="(m515)"/> <!--Binatone Models: Android-->
   </pattern>
-<context>  
+ 
   <input pattern="* (want|wanna|need|how|have|wish|require|help) * $PNDModels *">
     <output>
   <![CDATA[
