@@ -43,7 +43,7 @@
       </input>
     </context>
   </input>
-  <context>
+
   <pattern value="(m515)"/> <!--Binatone Models: Android-->
   </pattern>
   
@@ -65,8 +65,7 @@
     </output>
     <context>
       <input pattern="* where * (find|it) *">
-        <output value="The Buy button is placed at the top of main screen."/>
-      </input>
+        <output value="The Buy button is placed at the top of main screen."/>    
     </context>
   </input>
 </context>
