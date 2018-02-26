@@ -43,7 +43,7 @@
       </input>
     </context>
   </input>
-
+  <context>
   <pattern value="(m515)"/> <!--Binatone Models: Android-->
   </pattern>
   
