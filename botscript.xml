@@ -3,7 +3,6 @@
   <pattern value="(binatone|sat-nav|satnav|sat nav)"/> <!--Binatone Models-->
   <pattern value="(u435*|u505*|u605*|f435*)"/> <!--Binatone Models: WindowsCE-->
   <pattern value="(xplore500|xplore600|motorolla|mnd50*|mnd60*)"/> <!--Binatone Models: WindowsCE-->
-  <pattern value="(m515)"/> <!--Binatone Models: Android-->
   </pattern>
   
   <input pattern="* (want|wanna|need|how|have|wish|require|help) * $PNDModels *">
@@ -13,8 +12,24 @@
   <p></p>
   <p>Thank you for your contact.</p>
   <p>My name is NBot! I'm a fancy bot designed to help our users with their general queries, so I'll help you with any queries you might have.</p>
-  <p><br />The device model you are using uses Android Operating System, so it will not be compatible with NPlus. This is the only model from Binatone which does not use our NPlus updater, however, you can use its own Store option as long as you are using a Wi-Fi connection.</p>
-  <p><br />To check for updates on your device, simply run NDrive. When you are able to see the map, Press <strong>Menu</strong>, then&nbsp;go to&nbsp;<strong>Store</strong> &gt; <strong>My Products</strong>. If there's an update available, you will be notified accordingly.<br /><br />If I could not clarify you, just let me know, and I'll transfer your ticket to one of our Agents, who will be more than glad to assist you! ;)</p>
+  <p><br />All updates are available through our&nbsp;NPlus&nbsp;updater tool.<br /><br />To install NPlus on your computer, access the link below:<br /><br /><strong>NPlus</strong>:&nbsp;<a href="https://ndrive.com/update/n11" rel="noreferrer" target="_blank">https://ndrive.com/support-ndrive11/</a><br /><br />Before starting NPlus, make sure you have installed on your computer the&nbsp;synchronisation&nbsp;software compatible with the installed Windows version.<br /><br />If you have&nbsp;WindowsVista,&nbsp;7, 8 or 10, you should have installed "Windows Mobile Device Center".<br /><br />Note: For the file&nbsp;synchronisation&nbsp;feature, Windows Mobile Device Center 6.1 is fully compatible with Windows Vista, Windows 7, Windows 8 and Windows 10). You can download it from the following links:<br /><br />-&nbsp;<a href="https://www.microsoft.com/en-US/download/details.aspx?id=14" rel="noreferrer" target="_blank">32-bit</a><br />-&nbsp;<a href="https://www.microsoft.com/en-US/download/details.aspx?id=3182" rel="noreferrer" target="_blank">64-bit</a>&nbsp;(if your computer or laptop is post-2008, chances are you have a 64-bit CPU)</p>
+  <p>&nbsp;</p>
+  <p>Note2: If you are using Windows 10 with the&nbsp;Creators Update and onwards&nbsp;update, you will experience difficulties running Windows Mobile Device Center and/or detecting connected&nbsp;WindowsCE&nbsp;/&nbsp;Windows Mobile&nbsp;powered devices. Microsoft discontinued support for Windows Mobile Device Center due to an update on how the communications are established. Unfortunately, we don't know if this will be as intended by Microsoft or not, but it's something we are unable to control.</p>
+  <p>&nbsp;</p>
+  <p>Regardless, there is a fix which can be done by adding the following values to the registry:</p>
+  <p>&nbsp;</p>
+  <pre>REG ADD HKLM\SYSTEM\CurrentControlSet\Services\RapiMgr /v SvcHostSplitDisable /t REG_DWORD /d 1 /f<br />REG ADD HKLM\SYSTEM\CurrentControlSet\Services\WcesComm /v SvcHostSplitDisable /t REG_DWORD /d 1 /f</pre>
+  <p>&nbsp;</p>
+  <p>To do so, run&nbsp;Command Prompt in <strong>Administrator Mode</strong> by following the instructions below:</p>
+  <p>&nbsp;</p>
+  <ol>
+  <li>Tap or click on the Windows&nbsp;Start button, followed by&nbsp;All apps. Alternatively, choose <strong>Command Prompt / Powershell</strong>&nbsp;from the menu that appears after pressing&nbsp;WIN+X&nbsp;or&nbsp;right-clicking&nbsp;on the&nbsp;Start button.;</li>
+  <li><strong>Copy&nbsp;and&nbsp;Paste&nbsp;the first line</strong>;</li>
+  <li>Press&nbsp;Enter&nbsp;key and you'll get a confirmation that the command was accepted;</li>
+  <li>Do the same previous steps for the second line. When the confirmation is shown, reboot the computer;</li>
+  <li>You should now be able to&nbsp;synchronise&nbsp;your device correctly with Windows Mobile Device Center and NPlus.</li>
+  </ol>
+  <p>&nbsp;</p>
   <p>&nbsp;</p>
   <p>Best regards,</p>
   <div class="signature">
@@ -29,11 +44,6 @@
     </context>
   </input>
 
-<context>
-  <pattern name="PNDModels"> <!--Nested Patterns for NBot. These are for Binatone products-->
-  <pattern value="(binatone|sat-nav|satnav|sat nav)"/> <!--Binatone Models-->
-  <pattern value="(u435*|u505*|u605*|f435*)"/> <!--Binatone Models: WindowsCE-->
-  <pattern value="(xplore500|xplore600|motorolla|mnd50*|mnd60*)"/> <!--Binatone Models: WindowsCE-->
   <pattern value="(m515)"/> <!--Binatone Models: Android-->
   </pattern>
   
