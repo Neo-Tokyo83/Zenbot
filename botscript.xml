@@ -42,31 +42,3 @@
         <output value="The Buy button is placed at the top of main screen."/>
       </input>
     </context>
-  </input>
-  
-<context> 
-  <pattern value="(m515)"/> <!--Binatone Models: Android-->
-  </pattern>
- 
-  <input pattern="* (want|wanna|need|how|have|wish|require|help) * $PNDModels *">
-    <output>
-  <![CDATA[
-  <p>Hello $req_user_name!</p>
-  <p></p>
-  <p>Thank you for your contact.</p>
-  <p>My name is NBot! I'm a fancy bot designed to help our users with their general queries, so I'll help you with any queries you might have.</p>
-  <p><br />The device model you are using uses Android Operating System, so it will not be compatible with NPlus. This is the only model from Binatone which does not use our NPlus updater, however, you can use its own Store option as long as you are using a Wi-Fi connection.</p>
-  <p><br />To check for updates on your device, simply run NDrive. When you are able to see the map, Press <strong>Menu</strong>, then&nbsp;go to&nbsp;<strong>Store</strong> &gt; <strong>My Products</strong>. If there's an update available, you will be notified accordingly.<br /><br />If I could not clarify you, just let me know, and I'll transfer your ticket to one of our Agents, who will be more than glad to assist you! ;)</p>
-  <p>&nbsp;</p>
-  <p>Best regards,</p>
-  <div class="signature">
-  <p dir="auto">NBot<br /><strong>Support Team</strong></p>
-  </div>
-  ]]>
-    </output>
-    <context>
-      <input pattern="* where * (find|it) *">
-        <output value="The Buy button is placed at the top of main screen."/>    
-    </context>
-  </input>
-</context>
