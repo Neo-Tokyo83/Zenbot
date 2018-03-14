@@ -8,7 +8,7 @@
   <input pattern="* (want|wanna|need|how|have|wish|require|help) * $PNDModels *">
     <output>
   <![CDATA[
-  <p>Hello $req_user_name!</p>
+  <p>Hello</p> <!--$req_user_name! Removing thistag until forms are correctly parsed-->
   <p></p>
   <p>Thank you for your contact.</p>
   <p>My name is NBot! I'm a fancy bot designed to help our users with their general queries, so I'll help you with any queries you might have.</p>
